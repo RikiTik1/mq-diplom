@@ -189,11 +189,8 @@ a {
 }
 
 .trend_block {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   margin: 158px 22px 16px;
-  max-width: 370px;
+  flex-basis: 370px;
   min-height: 146px;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #b59f5b;
