@@ -189,12 +189,17 @@ a {
 }
 
 .trend_block {
-  margin: 158px 22px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 23px;
+  margin-bottom: 15px;
+  margin-left: 20px;
   flex-basis: 370px;
   min-height: 146px;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #b59f5b;
-  padding-bottom: 36px;
+  font-size: 20px;
 }
 
 .trend-links {
@@ -202,6 +207,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
+  font-size: 14px;
 }
 
 .trend-link {
@@ -211,6 +217,7 @@ a {
   font-weight: 700;
   font-family: "Open Sans";
   padding-bottom: 14px;
+  padding-left: 2.3em;
 }
 
 .trend-link:hover {
@@ -224,10 +231,11 @@ a {
 .trend_text {
   display: flex;
   flex-wrap: wrap;
-  font-size: 20px;
   color: #ffffff;
   font-weight: 700;
   font-family: "Open Sans";
+  padding-left: 1.65em;
+  padding-bottom: 1.8em;
 }
 
 .trend_text:hover {
