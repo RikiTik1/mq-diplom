@@ -151,6 +151,13 @@ a {
   width: 100%;
 }
 
+.frame {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
 .trend1 {
   background-image: url("../images/trend1.jpg");
   background-repeat: no-repeat;
@@ -192,14 +199,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-right: 23px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-  flex-basis: 370px;
+  margin: 22px;
   min-height: 146px;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #b59f5b;
-  font-size: 20px;
+
 }
 
 .trend-links {
@@ -236,6 +240,7 @@ a {
   font-family: "Open Sans";
   padding-left: 1.65em;
   padding-bottom: 1.8em;
+  padding-bottom: 36px;
 }
 
 .trend_text:hover {
