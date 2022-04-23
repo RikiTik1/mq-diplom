@@ -156,6 +156,20 @@ a {
   align-items: flex-end;
   padding-right: 22px;
   padding-left: 22px;
+  position: relative;
+
+}
+
+.frame:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0.8;
+  z-index: 1;
 }
 
 .trend1 {
@@ -199,11 +213,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  padding-top: 38px;
   margin: 22px;
   min-height: 146px;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #b59f5b;
-
+  z-index: 2;
 }
 
 .trend-links {
@@ -212,6 +227,7 @@ a {
   flex-wrap: wrap;
   list-style-type: none;
   font-size: 14px;
+  padding-left: 34px;
 }
 
 .trend-link {
@@ -220,27 +236,28 @@ a {
   color: #b59f5b;
   font-weight: 700;
   font-family: "Open Sans";
+  padding-right: 19px;
   padding-bottom: 14px;
-  padding-left: 2.3em;
 }
+
 
 .trend-link:hover {
   font-size: 14px;
   text-decoration: underline;
   color: #b59f5b;
   font-weight: 700;
-  font-family: "Open Sans";
 }
 
 .trend_text {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Open Sans";
   display: flex;
   flex-wrap: wrap;
   color: #ffffff;
   font-weight: 700;
-  font-family: "Open Sans";
   padding-left: 1.65em;
   padding-bottom: 1.8em;
-  padding-bottom: 36px;
 }
 
 .trend_text:hover {
