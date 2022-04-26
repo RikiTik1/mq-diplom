@@ -271,6 +271,7 @@ a {
   margin: auto;
   padding: 64px 14px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -695,6 +696,184 @@ a {
 }
 
 /*---aside закончился---*/
+/*--section начинается--*/
+.shop {
+  height: 500px;
+  margin-top: 63px;
+  margin-bottom: 65px;
+  font-family: "Open Sans";
+}
+
+.shop-title {
+  display: block;
+}
+
+.shop-title:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 66px;
+  height: 3px;
+  background-color: #e1d9bd;
+  margin-top: 8px;
+  margin-bottom: 28px;
+}
+
+.shop-post {
+  font-size: 20px;
+  color: #0f0d0e;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product_block {
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 29px;
+}
+
+.shop1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.shop2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.shop3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+}
+
+.shop-picture {
+  width: 300px;
+  height: 204px;
+  background-color: #eff6f1;
+
+}
+
+.texts {
+  width: 300px;
+}
+
+.out {
+  height: 267px;
+  background-color: rgba(0, 0, 0, 0);
+  outline: 3px solid #b59f5b;
+  outline-offset: 24px;
+}
+
+.text1 {
+  padding-top: 25px;
+}
+
+.shop-title1 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #0f0d0e;
+  font-weight: 700;
+  font-family: inherit;
+  padding-top: 25px;
+}
+
+.link-title1 {
+  width: 301px;
+  height: 54px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #b59f5e;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.shop-desc1 {
+  width: 301px;
+  height: 59px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #0f0d0e;
+  font-weight: 400;
+  font-family: inherit;
+  padding-top: 13px;
+}
+
+.shop-desc2 {
+  width: 301px;
+  height: 92px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #0f0d0e;
+  font-weight: 400;
+  font-family: inherit;
+  padding-top: 13px;
+}
+
+.shop-desc3 {
+  width: 301px;
+  height: 68px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #0f0d0e;
+  font-weight: 400;
+  font-family: inherit;
+  padding-top: 13px;
+}
+
+.price1 {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #0f0d0e;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.price2 {
+  display: flex;
+  font-size: 20px;
+  color: #0f0d0e;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.price3 {
+  opacity: 0;
+  margin: 0;
+}
+
+.shop-price {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 23px;
+
+}
+
+.shop_button {
+  height: 48px;
+  width: 140px;
+  border: none;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #b59f5b;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.shop_button:hover {
+  height: 48px;
+  width: 140px;
+  background-color: #323232;
+}
+
+/*--section начинается--*/
 /*---начинается footer---*/
 .footer {
   margin-top: 64px;
