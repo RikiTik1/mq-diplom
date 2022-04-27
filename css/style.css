@@ -219,7 +219,7 @@ a {
   min-height: 146px;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #b59f5b;
-  z-index: 1;
+  z-index: 2;
 }
 
 .trend-links {
@@ -944,6 +944,10 @@ a {
 }
 
 /*--начинается popup--*/
+._hidden {
+  display: none;
+}
+
 .popup {
   position: fixed;
   width: 100%;
@@ -953,8 +957,6 @@ a {
   left: 0;
   font-family: "Open Sans";
   z-index: 4;
-  display: none;
-  visibility: hidden;
 }
 
 .popup:target {
