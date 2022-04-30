@@ -301,6 +301,12 @@ a {
   .shop>.product_block {
     flex-wrap: wrap;
     width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
 
@@ -347,6 +353,11 @@ a {
   /*---начинаются articles---*/
   body>.articles {
     margin-top: 45px;
+  }
+
+  body>.footer {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -501,7 +512,7 @@ a {
   margin: auto;
   padding: 64px 14px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /*---заканичивается content---*/
@@ -999,7 +1010,7 @@ a {
   height: 206px;
   background-color: rgba(0, 0, 0, 0);
   outline: 3px solid #b59f5b;
-  outline-offset: 24px;
+  outline-offset: 20px;
 }
 
 .text1 {
@@ -1111,7 +1122,7 @@ a {
 }
 
 .footer-wrapper {
-  width: 1170px;
+  max-width: 1200px;
   margin: auto;
 }
 
