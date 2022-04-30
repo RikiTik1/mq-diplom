@@ -118,7 +118,7 @@ a {
 }
 
 /*-- Начинается Планшет--*/
-@media (min-width: 641px) and (max-width: 1200px) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
 
   /*-- Начинается header--*/
   .header {
@@ -360,6 +360,7 @@ a {
     margin-right: auto;
   }
 }
+
 
 .articles {
   margin-top: 64px;
