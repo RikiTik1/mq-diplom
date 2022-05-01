@@ -227,6 +227,17 @@ a {
     width: 49.8%;
   }
 
+  h3>.trend_text {
+    font-size: 17px;
+    line-height: 1.2;
+  }
+
+  .frame>.trend_block {
+    width: 344px;
+    min-height: 136px;
+    padding-top: 33px;
+  }
+
   /*---заканчивается articles---*/
   body>.content {
     padding: 50px 35px 0;
@@ -369,25 +380,37 @@ a {
 
   .trend>.trend1 {
     height: 247px;
-    width: 49.8%;
+    width: 49%;
   }
 
   .trend>.trend2 {
     height: 247px;
-    width: 49.8%;
+    width: 49%;
   }
 
   .trend>.trend3 {
     margin-top: 2px;
     height: 247px;
-    width: 49.8%;
+    width: 49%;
   }
 
   .trend>.trend4 {
     height: 247px;
     margin-top: 2px;
-    width: 49.8%;
+    width: 49%;
   }
+
+  h3>.trend_text {
+    font-size: 17px;
+    line-height: 1.2;
+  }
+
+  .frame>.trend_block {
+    max-width: 344px;
+    min-height: 136px;
+    padding-top: 33px;
+  }
+
 }
 
 .articles {
@@ -485,6 +508,7 @@ a {
   justify-content: flex-end;
   padding-top: 38px;
   margin: 22px;
+  width: 370px;
   min-height: 146px;
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid #b59f5b;
