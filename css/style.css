@@ -20,6 +20,7 @@
 
 /*-- Начинается header--*/
 .header {
+  width: 100%;
   position: relative;
   background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
@@ -230,7 +231,7 @@ a {
 
 .trend_text {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   font-family: "Open Sans";
   display: flex;
   flex-wrap: wrap;
@@ -1248,8 +1249,7 @@ a {
   }
 
   h3>.trend_text {
-    font-size: 17px;
-    line-height: 1.2;
+    font-size: calc(0.3vw + 14.64px);
   }
 
   .frame>.trend_block {
@@ -1404,9 +1404,9 @@ a {
   }
 
   h3>.trend_text {
-    font-size: 17px;
-    line-height: 1.2;
+    font-size: calc(0.3vw + 14.64px);
   }
+
 
   .frame>.trend_block {
     max-width: 344px;
