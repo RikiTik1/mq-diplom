@@ -205,23 +205,23 @@ a {
     flex-wrap: wrap;
   }
 
-  .trend>.trend1 {
+  .trend>.trend_plant {
     height: 247px;
     width: 49.8%;
   }
 
-  .trend>.trend2 {
+  .trend>.trend_cheese {
     height: 247px;
     width: 49.8%;
   }
 
-  .trend>.trend3 {
+  .trend>.trend_mountains {
     margin-top: 2px;
     height: 247px;
     width: 49.8%;
   }
 
-  .trend>.trend4 {
+  .trend>.trend_lemons {
     height: 247px;
     margin-top: 2px;
     width: 49.8%;
@@ -378,23 +378,23 @@ a {
     flex-wrap: nowrap;
   }
 
-  .trend>.trend1 {
+  .trend>.trend_plant {
     height: 247px;
     width: 49%;
   }
 
-  .trend>.trend2 {
+  .trend>.trend_cheese {
     height: 247px;
     width: 49%;
   }
 
-  .trend>.trend3 {
+  .trend>.trend_mountains {
     margin-top: 2px;
     height: 247px;
     width: 49%;
   }
 
-  .trend>.trend4 {
+  .trend>.trend_lemons {
     height: 247px;
     margin-top: 2px;
     width: 49%;
@@ -409,6 +409,7 @@ a {
     max-width: 344px;
     min-height: 136px;
     padding-top: 33px;
+    width: 100%;
   }
 
 }
@@ -466,7 +467,7 @@ a {
   z-index: 1;
 }
 
-.trend1 {
+.trend_plant {
   background-image: url("../images/trend1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -475,7 +476,7 @@ a {
   width: 24.6%;
 }
 
-.trend2 {
+.trend_cheese {
   background-image: url("../images/trend2.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -484,7 +485,7 @@ a {
   width: 24.6%;
 }
 
-.trend3 {
+.trend_mountains {
   background-image: url("../images/trend3.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -493,7 +494,7 @@ a {
   width: 24.6%;
 }
 
-.trend4 {
+.trend_lemons {
   background-image: url("../images/trend4.jpg");
   background-repeat: no-repeat;
   background-position: center;
