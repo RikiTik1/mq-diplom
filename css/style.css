@@ -374,30 +374,30 @@ a {
 }
 
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
-  .trend {
+  .articles>.trend {
     flex-wrap: nowrap;
   }
 
   .trend>.trend_plant {
     height: 247px;
-    width: 49%;
+    width: 24%;
   }
 
   .trend>.trend_cheese {
     height: 247px;
-    width: 49%;
+    width: 24%;
   }
 
   .trend>.trend_mountains {
     margin-top: 2px;
     height: 247px;
-    width: 49%;
+    width: 24%;
   }
 
   .trend>.trend_lemons {
     height: 247px;
     margin-top: 2px;
-    width: 49%;
+    width: 24%;
   }
 
   h3>.trend_text {
@@ -452,7 +452,11 @@ a {
   padding-right: 22px;
   padding-left: 22px;
   position: relative;
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 24%;
 }
 
 .frame:after {
@@ -469,38 +473,18 @@ a {
 
 .trend_plant {
   background-image: url("../images/trend1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 320px;
-  width: 24.6%;
 }
 
 .trend_cheese {
   background-image: url("../images/trend2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 320px;
-  width: 24.6%;
 }
 
 .trend_mountains {
   background-image: url("../images/trend3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 320px;
-  width: 24.6%;
 }
 
 .trend_lemons {
   background-image: url("../images/trend4.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 320px;
-  width: 24.6%;
 }
 
 .trend_block {
@@ -894,19 +878,19 @@ a {
   margin-bottom: 16px;
 }
 
-.tegs {
+.tags {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
 
-.teg {
+.tag {
   margin-top: 5px;
   margin-left: 3px;
   margin-right: 3px;
 }
 
-.teg-link {
+.tag-link {
   display: block;
   align-items: center;
   align-content: space-between;
@@ -920,12 +904,12 @@ a {
   font-weight: bold;
 }
 
-.teg-link:hover {
+.tag-link:hover {
   background-color: rgba(244, 243, 241, 0);
   border: 3px solid #b59f5b;
 }
 
-.teg-link:focus {
+.tag-link:focus {
   outline: 3px solid #eeeeee;
 }
 
@@ -1067,11 +1051,11 @@ a {
   outline-offset: 20px;
 }
 
-.text1 {
+.text_shop {
   padding-top: 25px;
 }
 
-.shop-title1 {
+.shop-name {
   font-size: 20px;
   line-height: 1.2;
   color: #0f0d0e;
@@ -1080,7 +1064,7 @@ a {
   padding-top: 25px;
 }
 
-.link-title1 {
+.link-title {
   width: 301px;
   height: 54px;
   font-size: 15px;
