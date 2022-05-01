@@ -1155,7 +1155,7 @@ a {
 
 /*--заканчивается popup--*/
 /*-- Начинается Планшет--*/
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
+@media (min-width: 641px) and (max-width: 1199px) {
 
   /*-- Начинается header--*/
   .header {
