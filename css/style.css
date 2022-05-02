@@ -442,6 +442,10 @@ a {
   width: 100%;
 }
 
+.search-group {
+  width: 100%;
+}
+
 .visually-hidden {
   width: 1px;
   height: 1px;
@@ -461,10 +465,11 @@ a {
 
 .search-button {
   border: none;
-  width: 48px;
+  width: 47px;
+  height: 47px;
   background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
-  background-size: 16px;
+  background-size: 18px;
   background-position: center;
   background-color: #b59f5b;
 }
@@ -717,18 +722,6 @@ a {
   justify-content: flex-start;
 }
 
-.article_shop {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.article_shop {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
 .picture {
   margin-left: auto;
   margin-right: auto;
@@ -753,7 +746,7 @@ a {
 }
 
 .text_shop {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .shop-name {
@@ -1253,6 +1246,10 @@ a {
 
   /*-- заканчивается header--*/
   /*---начинаются articles---*/
+  body>.articles {
+    margin-top: 45px;
+  }
+
   .trend {
     flex-wrap: wrap;
   }
@@ -1312,7 +1309,7 @@ a {
     margin-top: 34px;
   }
 
-  .body-desc:after {
+  .after:after {
     content: "";
     display: block;
     margin: 0 auto;
@@ -1387,20 +1384,15 @@ a {
     height: 67px;
   }
 
-  /*---заканчивается articles---*/
-  /*-- заканчивается планшет--*/
-  /*-- заканчивается header--*/
+  /*--section заканчивается--*/
 
-  /*---начинаются articles---*/
-  body>.articles {
-    margin-top: 45px;
-  }
-
+  /*-- начинается footer--*/
   body>.footer {
     margin-left: auto;
     margin-right: auto;
   }
 
+  /*-- заканчивается footer--*/
 }
 
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
@@ -1428,7 +1420,10 @@ a {
 }
 
 @media (max-width: 640px) {
+
+  /*-- Начинается header--*/
   body>.header {
+    width: 100%;
     background-image: url("../images/banner-mobile.jpg");
     background-position: center center;
     padding: 0 0 0 0;
@@ -1531,4 +1526,171 @@ a {
     margin-right: auto;
   }
 
+  /*-- заканчивается header--*/
+  /*-- Начинается articles--*/
+  .articles-title {
+    font-size: 16px;
+  }
+
+  .trend {
+    flex-direction: column;
+  }
+
+  .frame {
+    width: 100%;
+    height: 232px;
+    background-color: #eff6f1;
+    margin-bottom: 2px;
+  }
+
+  .trend_text {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .trend_block {
+    padding-top: 38px;
+    margin: 22px;
+    width: 100%;
+    height: 127px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #b59f5b;
+    z-index: 2;
+  }
+
+  /*-- заканчивается  articles--*/
+  .content {
+    flex-wrap: wrap;
+    padding: 43px 15px 0;
+  }
+
+  /*-- Начинается main--*/
+  .main {
+    width: 778px;
+    padding-right: 3%;
+    padding-bottom: 44px;
+  }
+
+  .body {
+    flex-direction: column;
+  }
+
+  .body:nth-child(n + 2) {
+    padding-top: 36px;
+  }
+
+  .body-picture {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .body-title {
+    font-size: 16px;
+  }
+
+  .text {
+    display: flex;
+    margin: 15px 0 20px;
+  }
+
+  .body-desc {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .after:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 3px;
+    background-color: #eeeeee;
+    margin-top: 19px;
+  }
+
+  /*-- заканчивается main--*/
+  /*-- Начинается sidebar--*/
+  .sidebar {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .search-field {
+    width: 100%;
+  }
+
+  .search-button {
+    border: none;
+    width: 48px;
+    background-image: url("../svg/search.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    background-color: #b59f5b;
+  }
+
+  .mailing {
+    margin-top: 44px;
+    padding-bottom: 44px;
+  }
+
+  .article_shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 47px;
+  }
+
+  /*-- заканчивается sidebar--*/
+  /*-- начинается shop--*/
+  .product_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .shop-picture {
+    width: 285px;
+  }
+
+  .texts {
+    width: 285px;
+  }
+
+  .shop-name {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+
+  .shop-description {
+    width: 291px;
+    height: 50px;
+    font-size: 15px;
+    padding-top: 8px;
+  }
+
+  .description {
+    width: 291px;
+    height: 83px;
+    padding-top: 8px;
+  }
+
+  .descriptions {
+    width: 292px;
+    height: 67px;
+    padding-top: 8px;
+  }
+
+  /*--заканчивается shop--*/
+  .footer {
+    margin-top: 28px;
+    padding-bottom: 40px;
+    max-width: 640px;
+  }
+
+  .footer-wrapper {
+    max-width: 100%;
+    margin: auto;
+  }
 }
