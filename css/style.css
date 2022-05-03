@@ -902,6 +902,10 @@ a {
   background-image: url("../svg/003-tumblr.svg");
 }
 
+._hidden {
+  display: none;
+}
+
 .hidden {
   position: absolute;
   width: 1px;
